@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>Sistema EventDASH</h3>
+            </div>
+        </div>
+
+        <!--frmulário de login-->
+        <div class="mb-3"> <!--Linha do login-->
+            <label for="txtLogin" class="form-label">Identifique-se</label>
+            <input type="text" class="form-control" id="txtLogin" placeholder="Seu Racf ou email"></label>
+        </div>
+
+        <div class="mb-3"> <!--Linha da senha-->
+            <label for="txtSenha" class="form-label">Sua senha</label>
+            <input type="password" class="form-control" id="txtSenha">
+
+        </div>
+
+        <!--Criando o botão de enviar-->
+        <div class="mb-3">
+            <button type="button" onclick="enviarDados()" class="btn btn-primary">Enviar Dados</button>
+        </div>
+
+
+        <div class="mb-3 text-center">
+            <h3 id="msgErro">...</h3>
+        </div>
+
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
